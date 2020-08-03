@@ -17,7 +17,7 @@ class _HomePageState extends State<HomePage> {
     super.initState();
 
     // 监听事件，同时发送参数12345
-    eventChannel.receiveBroadcastStream(12345).listen(_onEvent,onError: _onError);
+    eventChannel.receiveBroadcastStream('手机号: 13250506218').listen(_onEvent,onError: _onError);
   }
 
   String naviTitle = 'title' ;
