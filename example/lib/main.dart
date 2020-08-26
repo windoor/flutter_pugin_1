@@ -9,7 +9,7 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
 
   // 注册一个通知
-  static const EventChannel eventChannel = const EventChannel('com.pages.your/native_post');
+  static const EventChannel eventChannel = const EventChannel('com.pages.your/native_channel');
 
   // 渲染前的操作，类似viewDidLoad
   @override
